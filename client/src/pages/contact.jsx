@@ -45,7 +45,7 @@ export default function Contact() {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        className="max-w-4xl mx-auto px-6 pt-28 pb-16"
+        className="max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16"
       >
         <motion.div variants={itemVariants} className="mb-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent">

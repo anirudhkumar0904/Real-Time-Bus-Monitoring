@@ -92,8 +92,8 @@ export default function Dashboard() {
           <div className="lg:col-span-2 space-y-8">
             
             {/* Digital Transit Pass (Apple Wallet Style) */}
-            <motion.div variants={itemVariants} className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-orange-500 via-orange-600 to-amber-600 p-8 text-white shadow-xl shadow-orange-500/20 group">
-              <div className="absolute top-0 right-0 p-8 opacity-10 transform translate-x-1/4 -translate-y-1/4 group-hover:scale-110 transition-transform duration-700">
+            <motion.div variants={itemVariants} className="relative overflow-hidden rounded-[2rem] bg-gradient-to-br from-orange-500 via-orange-600 to-amber-600 p-6 sm:p-8 text-white shadow-xl shadow-orange-500/20 group">
+              <div className="absolute top-0 right-0 p-6 sm:p-8 opacity-10 transform translate-x-1/4 -translate-y-1/4 group-hover:scale-110 transition-transform duration-700">
                 <Bus className="w-64 h-64" />
               </div>
               

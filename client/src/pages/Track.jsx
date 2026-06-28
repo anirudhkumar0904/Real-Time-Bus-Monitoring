@@ -157,7 +157,7 @@ export default function TrackMyBus() {
   }, []);
 
   return (
-    <div className="h-screen w-full relative bg-slate-900 overflow-hidden font-sans">
+    <div className="h-screen h-[100dvh] w-full relative bg-slate-900 overflow-hidden font-sans">
       <Navbar />
 
       {/* Fullscreen Map */}
@@ -168,7 +168,7 @@ export default function TrackMyBus() {
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ type: "spring", stiffness: 300, damping: 24, delay: 0.2 }}
-        className="absolute bottom-8 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-8 w-[90%] md:w-96 bg-white/80 dark:bg-slate-950/80 backdrop-blur-xl border border-white/20 dark:border-white/10 p-6 rounded-3xl shadow-2xl z-10"
+        className="absolute bottom-4 sm:bottom-8 left-1/2 -translate-x-1/2 md:translate-x-0 md:left-8 w-[92%] sm:w-[90%] md:w-96 max-h-[60dvh] overflow-y-auto bg-white/90 dark:bg-slate-950/90 backdrop-blur-xl border border-white/20 dark:border-white/10 p-4 sm:p-6 rounded-3xl shadow-2xl z-10 scrollbar-none"
       >
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-bold tracking-tight text-slate-900 dark:text-white flex items-center gap-2">

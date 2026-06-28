@@ -70,7 +70,7 @@ export default function MyBusRoute() {
         variants={containerVariants}
         initial="hidden"
         animate="show"
-        className="max-w-4xl mx-auto px-6 pt-28 pb-16"
+        className="max-w-4xl mx-auto px-4 sm:px-6 pt-28 pb-16"
       >
         <motion.div variants={itemVariants} className="mb-8">
           <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent">
@@ -82,8 +82,8 @@ export default function MyBusRoute() {
         </motion.div>
 
         {/* Bus Info Card */}
-        <motion.div variants={itemVariants} className="bg-white dark:bg-slate-900 rounded-3xl p-6 sm:p-8 shadow-sm border border-slate-200 dark:border-slate-800/85 mb-10">
-          <div className="grid grid-cols-3 gap-4 sm:gap-8">
+        <motion.div variants={itemVariants} className="bg-white dark:bg-slate-900 rounded-3xl p-5 sm:p-8 shadow-sm border border-slate-200 dark:border-slate-800/85 mb-10">
+          <div className="grid grid-cols-3 gap-2 sm:gap-8">
             <div>
               <p className="text-slate-400 dark:text-slate-500 text-xs font-semibold uppercase tracking-wider mb-1">Bus ID</p>
               <p className="text-slate-900 dark:text-white text-lg sm:text-2xl font-black">{busInfo.id}</p>

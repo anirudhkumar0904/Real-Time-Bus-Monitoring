@@ -80,7 +80,7 @@ export default function Login() {
           initial={{ opacity: 0, y: 50 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-          className="bg-slate-900/40 backdrop-blur-xl rounded-3xl p-8 sm:p-10 w-full max-w-md border border-white/[0.08] shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+          className="bg-slate-900/40 backdrop-blur-xl rounded-3xl p-6 sm:p-10 w-full max-w-md border border-white/[0.08] shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
         >
           <h3 className="text-white text-3xl font-bold tracking-tight mb-2">Student Login</h3>
           <p className="text-gray-400 text-sm mb-6">Access your bus tracking dashboard</p>
