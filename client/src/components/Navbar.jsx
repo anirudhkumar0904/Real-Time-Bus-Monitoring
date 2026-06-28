@@ -17,8 +17,8 @@ export default function Navbar() {
 
   const navItems = [
     { name: 'Home', path: '/dashboard' },
-    { name: 'My Bus Route', path: '/my-bus-route' },
     { name: 'Track My Bus', path: '/track' },
+    { name: 'My Bus Route', path: '/my-bus-route' },
     { name: 'Contact', path: '/contact' },
     { name: 'Profile', path: '/profile' }
   ];
