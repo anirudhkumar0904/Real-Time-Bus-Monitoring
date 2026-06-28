@@ -65,9 +65,9 @@ export default function Login() {
           </span>
           <h2 className="text-white text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight tracking-tight mb-4">
             Track Your College <br className="hidden sm:inline" />
-            <span className="bg-gradient-to-r from-white via-gray-100 to-gray-400 bg-clip-text text-transparent">Bus Route</span>
+            <span className="bg-gradient-to-r from-white via-gray-100 to-gray-400 bg-clip-text text-transparent pb-1 inline-block">Bus Route</span>
           </h2>
-          <h3 className="bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent text-4xl sm:text-5xl lg:text-6xl font-extrabold mb-6">
+          <h3 className="bg-gradient-to-r from-orange-500 to-amber-400 bg-clip-text text-transparent text-4xl sm:text-5xl lg:text-6xl font-extrabold pb-2 sm:pb-3 leading-tight inline-block mb-4 sm:mb-6">
             Anytime, Anywhere.
           </h3>
           <p className="text-gray-400 text-base sm:text-lg mb-8 max-w-xl leading-relaxed mx-auto lg:mx-0">

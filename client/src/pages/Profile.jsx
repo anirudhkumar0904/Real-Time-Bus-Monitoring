@@ -50,7 +50,7 @@ export default function Profile() {
       >
         {/* Header */}
         <motion.div variants={itemVariants} className="text-center mb-8">
-          <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent">
+          <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent pb-1 inline-block">
             My Profile
           </h1>
           <p className="text-slate-500 dark:text-slate-400 text-sm sm:text-base mt-1">

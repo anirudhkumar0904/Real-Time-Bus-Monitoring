@@ -73,7 +73,7 @@ export default function Dashboard() {
         {/* Header / Greeting */}
         <motion.div variants={itemVariants} className="flex flex-col sm:flex-row sm:items-end justify-between mb-8 gap-4">
           <div>
-            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent">
+            <h1 className="text-3xl sm:text-4xl font-extrabold tracking-tight bg-gradient-to-r from-slate-900 via-slate-800 to-slate-700 dark:from-white dark:via-slate-100 dark:to-slate-300 bg-clip-text text-transparent pb-1 inline-block">
               Hello, {user.name.split(' ')[0]}
             </h1>
             <p className="text-slate-500 dark:text-slate-400 mt-1 text-sm sm:text-base font-medium">
