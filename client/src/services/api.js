@@ -12,7 +12,7 @@ export const mockLogin = async (registerNumber, password) => {
           success: true,
           user: {
             name: "Anirudh Kumar R",
-            registerNumber: registerNumber === "123" ? "123" : "126158006",
+            registerNumber: "126158006",
             department: "Computer Science and Engineering",
             year: "4th Year",
 

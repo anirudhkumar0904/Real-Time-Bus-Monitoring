@@ -132,10 +132,10 @@ export default function Login() {
           <div className="mt-8 pt-6 border-t border-white/[0.06] text-center">
             <p className="text-gray-500 text-xs mb-1">Demo Credentials</p>
             <p className="text-gray-300 text-xs font-semibold">
-              Register No: <span className="text-orange-400">126158006</span> &nbsp;|&nbsp; Password: <span className="text-orange-400">126158006</span>
+              Register No: <span className="text-orange-400 font-bold">123</span> &nbsp;|&nbsp; Password: <span className="text-orange-400 font-bold">123</span>
             </p>
             <p className="text-gray-400 text-[10px] mt-1.5">
-              (Alternative demo: <span className="text-orange-400/80">123</span> / <span className="text-orange-400/80">123</span>)
+              (Full ID demo: <span className="text-orange-400/80">126158006</span> / <span className="text-orange-400/80">126158006</span>)
             </p>
           </div>
         </motion.div>
