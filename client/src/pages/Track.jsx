@@ -56,7 +56,8 @@ export default function TrackMyBus() {
     
     const fetchRoute = async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/route");
+        const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+        const res = await fetch(`${API_URL}/api/route`);
         const data = await res.json();
         if (data.success && data.routePath && data.routePath.length > 0) {
           const latLngs = data.routePath.map(p => [p.lat, p.lng]);
@@ -81,7 +82,8 @@ export default function TrackMyBus() {
 
     const interval = setInterval(async () => {
       try {
-        const res = await fetch("http://localhost:5000/api/gps");
+        const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+        const res = await fetch(`${API_URL}/api/gps`);
         const data = await res.json();
 
         if (data.success && data.location.lat) {
